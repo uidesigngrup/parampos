@@ -3,8 +3,8 @@ import {ParamposSoap} from "./soap";
 import {ServiceTurkposClient} from "./serviceturkpos/client";
 
 const urls = {
-    production: 'https://dmzws.ew.com.tr/turkpos.ws/service_turkpos_prod.asmx',
-    test: 'https://test-dmz.param.com.tr:4443/turkpos.ws/service_turkpos_test.asmx'
+    production: 'https://posws.param.com.tr/turkpos.ws/service_turkpos_prod.asmx?wsdl',
+    test: 'https://testposws.param.com.tr/turkpos.ws/service_turkpos_prod.asmx?wsdl'
 }
 
 export class Parampos {
